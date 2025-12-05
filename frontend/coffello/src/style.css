@@ -1,0 +1,69 @@
+/* 1️⃣ Google Fonts (loaded first) */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap");
+
+/* 2️⃣ Tailwind (loaded after fonts) */
+@import "tailwindcss";
+
+.background {
+    background-image: url("./images/home-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("./images/overlay.png");
+    background-size: auto;         /* keep original size */
+    background-position: top left; /* start from top-left */
+    background-repeat: repeat;     /* repeat both horizontally and vertically */
+
+    pointer-events: none;
+    z-index: 9;
+}
+
+
+.name-animation {
+    display: flex;
+    position: absolute;
+}
+/* Hide scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+
+.name-animation .text-wrapper {
+    font-family: "Bagel Fat One", Helvetica;
+    font-size: 256px;
+    font-weight: 400;
+    height: 371px;
+    line-height: normal;
+    text-align: center;
+    margin-left: -5px;
+    text-shadow: 10px 10px 0px #9f2b2c;
+    color: #e0a03f;
+    -webkit-text-stroke: 5px #9f2b2c;
+
+}
+.box {
+    height: 119px;
+    width: 1500px;
+}
+
+.box .rectangle {
+    height: 119px;
+    left: 30px;
+    position: fixed;
+    top: 0;
+    width: 1440px;
+}
