@@ -72,7 +72,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div id="home" className='bg-[#FEF3B1] w-full h-full'>
+    <div id="/" className='bg-[#FEF3B1] w-full h-full'>
     <div
       className="fixed top-0 left-0 w-full min-h-screen pointer-events-none z-9"
       style={{

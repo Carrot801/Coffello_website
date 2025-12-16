@@ -4,6 +4,64 @@
 
 /* 2️⃣ Tailwind (loaded after fonts) */
 @import "tailwindcss";
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.card-delights {
+border-radius: 15px;
+border: 5px solid #9F2B2C;
+background: linear-gradient(180deg, #FEF3B1 0%, #E0A03F 100%);
+}
+.card-delights-description {
+border-radius: 15px;
+border: 5px solid #9F2B2C;
+background: #FEF3B1;
+}
+
+
+/* Drinks from Menu page */
+.card {
+    width: 336px;      /* outer square width */
+    height: 406px;     /* outer square height */
+    border-radius: 15px;
+    border: 7px solid transparent;
+    outline: 7px solid #355D67;
+    background: #FEF3B1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    z-index: 10;
+    padding-top: 6px;
+}
+.card-background {
+    width: 310px;
+    height: 320px;
+    border-radius: 15px;
+    background: radial-gradient(66.67% 66.67% at 50% 50%, #FEF3B1 35.58%, #355D67 100%);
+}
+.card-text-container {
+    width: 310px;
+    height: 45px;
+    bottom: 6px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+
+}
 
 .background {
     background-image: url("./images/home-background.png");
