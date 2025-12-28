@@ -157,7 +157,7 @@ const Home = () => {
           ))}
         </div>
       </div>
-      <div className="bg-[#9F2B2C] w-full h-[413px] relative justify-center">
+      <div className="bg-[#9F2B2C] w-full h-[490px] relative justify-center">
         <div className="flex flex-row w-full h-[180px] items-center justify-center pt-10 z-101">
           <div className="flex flex-col w-[400px] h-full items-center justify-center space-y-[5vw]">
             <HeaderAnimation size={3} font={'Simonetta'} stroke={0} shadow={false} text={"Address"} color="#FEF3B1" fontWeight={900} className="name-animation-instance h-[1px]"  />

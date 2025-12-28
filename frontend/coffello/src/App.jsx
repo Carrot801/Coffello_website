@@ -7,6 +7,7 @@ import Menu from './pages/Menu';
 import Drinks from './pages/Drinks';
 import Sweets from './pages/Sweets';
 import { NewDelights } from './pages/NewDelights';
+import {AboutUs} from './pages/AboutUs';
 const App = () => {
   return (
     <div>
@@ -19,7 +20,7 @@ const App = () => {
         <Route path="/Drinks" element={<Drinks />} />
         <Route path="/Sweets" element={<Sweets />} />
         <Route path="/NewDelights" element={< NewDelights/>} />
- />} />
+        <Route path="/AboutUs" element={< AboutUs/>}  />
 
       </Routes>
     </div>
